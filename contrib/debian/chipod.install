@@ -1,0 +1,3 @@
+usr/local/bin/chipod usr/bin
+usr/local/bin/chipo-cli usr/bin
+debian/examples/chipo.conf etc/chipo

@@ -1,0 +1,8 @@
+/usr/bin/chipo-cli		--	gen_context(system_u:object_r:chipo_exec_t,s0)
+/usr/sbin/chipod		--	gen_context(system_u:object_r:chipo_exec_t,s0)
+/usr/lib(64)?/chipo/chipod		--	gen_context(system_u:object_r:chipo_exec_t,s0)
+
+/etc/chipo(/.*)?		gen_context(system_u:object_r:chipo_conf_t,s0)
+/var/lib/chipo(/.*)?		gen_context(system_u:object_r:chipo_var_lib_t,s0)
+
+(/var)?/run/chipod(/.*)?   gen_context(system_u:object_r:chipo_var_run_t,s0)

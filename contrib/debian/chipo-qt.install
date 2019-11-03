@@ -1,0 +1,6 @@
+usr/local/bin/chipo-qt usr/bin
+share/pixmaps/chipo32.xpm usr/share/pixmaps
+share/pixmaps/chipo16.xpm usr/share/pixmaps
+share/pixmaps/chipo128.png usr/share/pixmaps
+debian/chipo-qt.desktop usr/share/applications
+debian/chipo-qt.protocol usr/share/kde4/services/

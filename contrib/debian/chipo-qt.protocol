@@ -1,0 +1,11 @@
+[Protocol]
+exec=chipo-qt '%u'
+protocol=chipo
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=CHIPO Core
+Comment=CHIPO P2P Cryptocurrency
+Comment[fr]=CHIPO, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CHIPO, eşten eşe kriptografik sanal para birimi
+Exec=chipo-qt %u
+Terminal=false
+Type=Application
+Icon=chipo128
+MimeType=x-scheme-handler/chipo;
+Categories=Office;Finance;
+StartupWMClass=CHIPO-qt
