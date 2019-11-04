@@ -176,7 +176,7 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MTNSs from being stolen by malware infecting your computer.</source>
+        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ICUs from being stolen by malware infecting your computer.</source>
         <translation>CHIPO vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
@@ -184,8 +184,8 @@
         <translation>Er du sikker på, at du vil kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MTNS&lt;/b&gt;!</source>
-        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE MTNS&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ICU&lt;/b&gt;!</source>
+        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE ICU&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1508,32 +1508,32 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Vælg tilsløringsniveau</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 25000 MTNS</source>
-        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 25000 MTNS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 25000 ICU</source>
+        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 25000 ICU</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 25000 MTNS</source>
-        <translation>Brug 8 separate masternoder for at tilsløre op til 25000 MTNS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 25000 ICU</source>
+        <translation>Brug 8 separate masternoder for at tilsløre op til 25000 ICU</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Brug 16 separate masternoder</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MTNS to anonymize 25000 MTNS</source>
-        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 MTNS for at anonymiser 25000 MTNS</translation>
+        <source>This option is the quickest and will cost about ~0.025 ICU to anonymize 25000 ICU</source>
+        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 ICU for at anonymiser 25000 ICU</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MTNS to anonymize 25000 MTNS</source>
-        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 MTNS for at anonymiser 25000 MTNS</translation>
+        <source>This option is moderately fast and will cost about 0.05 ICU to anonymize 25000 ICU</source>
+        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 ICU for at anonymiser 25000 ICU</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Denne mulighed er den langsomste og det mest sikre valg. Valg af maksimal tilsløring vil koste</translation>
     </message>
     <message>
-        <source>0.1 MTNS per 25000 MTNS you anonymize.</source>
-        <translation>0.1 pr 25000 MTNS for at tilsløre.</translation>
+        <source>0.1 ICU per 25000 ICU you anonymize.</source>
+        <translation>0.1 pr 25000 ICU for at tilsløre.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -2701,8 +2701,8 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>UTXO størrelse:</translation>
     </message>
     <message>
-        <source>0 MTNS</source>
-        <translation>0 MTNS</translation>
+        <source>0 ICU</source>
+        <translation>0 ICU</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2745,12 +2745,12 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>Bekræftelsestid</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uMTNSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMTNSs in fee,&lt;br /&gt;while "at least" pays 1000 uMTNSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uMTNSs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uMTNS i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uMTNSs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uICUs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uICUs in fee,&lt;br /&gt;while "at least" pays 1000 uICUs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uICUs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uICU i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uICUs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uMTNSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMTNSs in fee,&lt;br /&gt;while "total at least" pays 1000 uMTNSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uMTNSs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uMTNS i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uMTNSs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uICUs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uICUs in fee,&lt;br /&gt;while "total at least" pays 1000 uICUs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uICUs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uICU i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uICUs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for CHIPO transactions than the network can process.</source>
@@ -3721,8 +3721,8 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>Send mønter</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 MTNS.</source>
-        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1MTNS.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 ICU.</source>
+        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1ICU.</translation>
     </message>
 </context>
 <context>
@@ -3859,12 +3859,12 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>Udfør en kommando når den bedste blok ændres (%s in cmd erstattes med blok hashen)</translation>
     </message>
     <message>
-        <source>Fees (in MTNS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (in MTNS/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
+        <source>Fees (in ICU/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (in ICU/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in MTNS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (in MTNS/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
+        <source>Fees (in ICU/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (in ICU/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3995,12 +3995,12 @@ For eksempel: alertnotify=Echo %% | mail - s "CHIPO ALARM!" e-mail@administrator
         <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret designeret indestående for at gennemføre denne transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 25000 MTNS.</source>
-        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 25000 MTNS.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 25000 ICU.</source>
+        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 25000 ICU.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 25000 MTNS.</source>
-        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 25000 MTNS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 25000 ICU.</source>
+        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 25000 ICU.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4287,8 +4287,8 @@ For eksempel: alertnotify=Echo %% | mail - s "CHIPO ALARM!" e-mail@administrator
         <translation>Læsning af blokken mislykkedes</translation>
     </message>
     <message>
-        <source>Fee (in MTNS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i MTNS/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
+        <source>Fee (in ICU/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i ICU/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

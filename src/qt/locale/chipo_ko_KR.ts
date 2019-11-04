@@ -176,16 +176,16 @@
         <translation>지갑 암호화 확인</translation>
     </message>
     <message>
-        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MTNSs from being stolen by malware infecting your computer.</source>
-        <translation>CHIPO는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 MTNSs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ICUs from being stolen by malware infecting your computer.</source>
+        <translation>CHIPO는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 ICUs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MTNS&lt;/b&gt;!</source>
-        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 MTNS를 잃게 됩니다&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ICU&lt;/b&gt;!</source>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 ICU를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1508,32 +1508,32 @@ Please check the address and try again.</source>
         <translation>익명화 레벨을 선택해주세요.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 25000 MTNS</source>
-        <translation>2개의 개별 마스터노드를 이용하여 최대 25000 MTNS 를 섞을 수 있습니다.</translation>
+        <source>Use 2 separate masternodes to mix funds up to 25000 ICU</source>
+        <translation>2개의 개별 마스터노드를 이용하여 최대 25000 ICU 를 섞을 수 있습니다.</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 25000 MTNS</source>
-        <translation>8개의 개별 마스터노드를 이용하여 최대 25000 MTNS 를 섞을 수 있습니다.</translation>
+        <source>Use 8 separate masternodes to mix funds up to 25000 ICU</source>
+        <translation>8개의 개별 마스터노드를 이용하여 최대 25000 ICU 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>16개의 개별 마스터노드를 사용</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MTNS to anonymize 25000 MTNS</source>
-        <translation>이 옵션은 가장 빠르게 전송되며 25000 MTNS 익명화에 약 ~0.025 MTNS의 비용이 들어갑니다.</translation>
+        <source>This option is the quickest and will cost about ~0.025 ICU to anonymize 25000 ICU</source>
+        <translation>이 옵션은 가장 빠르게 전송되며 25000 ICU 익명화에 약 ~0.025 ICU의 비용이 들어갑니다.</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MTNS to anonymize 25000 MTNS</source>
-        <translation>이 옵션은 중간 정도의 속도로 전송되며 25000 MTNS 익명화에 약 0.05 MTNS의 비용이 들어갑니다.</translation>
+        <source>This option is moderately fast and will cost about 0.05 ICU to anonymize 25000 ICU</source>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 25000 ICU 익명화에 약 0.05 ICU의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>이것은 가장 느리고 안전한 옵션입니다. 최고 익명성을 사용하면 비용이 발생합니다.</translation>
     </message>
     <message>
-        <source>0.1 MTNS per 25000 MTNS you anonymize.</source>
-        <translation>25000 MTNS 익명화에 0.1 MTNS 가 듭니다.</translation>
+        <source>0.1 ICU per 25000 ICU you anonymize.</source>
+        <translation>25000 ICU 익명화에 0.1 ICU 가 듭니다.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -2706,8 +2706,8 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>UTXO 크기:</translation>
     </message>
     <message>
-        <source>0 MTNS</source>
-        <translation>0 MTNS</translation>
+        <source>0 ICU</source>
+        <translation>0 ICU</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2750,12 +2750,12 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>승인 시간:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uMTNSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMTNSs in fee,&lt;br /&gt;while "at least" pays 1000 uMTNSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uMTNSs로 설정되고,&lt;br /&gt;1000 uMTNSs 안에는 최소 "킬로바이트당" 250 uMTNSs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uICUs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uICUs in fee,&lt;br /&gt;while "at least" pays 1000 uICUs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uICUs로 설정되고,&lt;br /&gt;1000 uICUs 안에는 최소 "킬로바이트당" 250 uICUs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uMTNSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMTNSs in fee,&lt;br /&gt;while "total at least" pays 1000 uMTNSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uMTNSs로 설정되고,&lt;br /&gt;1000 uMTNSs 안에는 전체에서 최소 "킬로바이트당" 250 uMTNSs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
+        <source>If the custom fee is set to 1000 uICUs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uICUs in fee,&lt;br /&gt;while "total at least" pays 1000 uICUs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uICUs로 설정되고,&lt;br /&gt;1000 uICUs 안에는 전체에서 최소 "킬로바이트당" 250 uICUs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for CHIPO transactions than the network can process.</source>
@@ -3731,8 +3731,8 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 MTNS.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 MTNS로 제한됩니다.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 ICU.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 ICU로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -3868,12 +3868,12 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in MTNS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (MTNS/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in ICU/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (ICU/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in MTNS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (MTNS/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in ICU/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (ICU/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4004,12 +4004,12 @@ rpcpassword=%s
         <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 25000 MTNS.</source>
-        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 25000 MTNS과 일치하지 않음.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 25000 ICU.</source>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 25000 ICU과 일치하지 않음.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 25000 MTNS.</source>
-        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 25000 MTNS와 같지 않음</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 25000 ICU.</source>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 25000 ICU와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4296,8 +4296,8 @@ rpcpassword=%s
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in MTNS/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (MTNS/kB) (기본값: %s)</translation>
+        <source>Fee (in ICU/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (ICU/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>

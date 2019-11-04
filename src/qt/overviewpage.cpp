@@ -37,7 +37,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::MTNS)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::ICU)
     {
     }
 
@@ -166,7 +166,7 @@ OverviewPage::~OverviewPage()
     delete ui;
 }
 
-void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sMTNSPercentage, QString& szMTNSPercentage)
+void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBalance, QString& sICUPercentage, QString& szICUPercentage)
 {
     int nPrecision = 2;
     double dzPercentage = 0.0;
@@ -185,8 +185,8 @@ void OverviewPage::getPercentage(CAmount nUnlockedBalance, CAmount nZerocoinBala
 
     double dPercentage = 100.0 - dzPercentage;
 
-    szMTNSPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
-    sMTNSPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
+    szICUPercentage = "(" + QLocale(QLocale::system()).toString(dzPercentage, 'f', nPrecision) + " %)";
+    sICUPercentage = "(" + QLocale(QLocale::system()).toString(dPercentage, 'f', nPrecision) + " %)";
 
 }
 
@@ -210,12 +210,12 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
         nLockedBalance = pwalletMain->GetLockedCoins();
         nWatchOnlyLockedBalance = pwalletMain->GetLockedWatchOnlyBalance();
     }
-    // MTNS Balance
+    // ICU Balance
     CAmount nTotalBalance = balance + unconfirmedBalance;
     CAmount mnpAvailableBalance = balance - immatureBalance - nLockedBalance;
     CAmount nTotalWatchBalance = watchOnlyBalance + watchUnconfBalance + watchImmatureBalance;
     CAmount nUnlockedBalance = nTotalBalance - nLockedBalance;
-    // zMTNS Balance
+    // zICU Balance
     CAmount matureZerocoinBalance = zerocoinBalance - immatureZerocoinBalance;
     // Percentages
     QString szPercentage = "";
@@ -225,7 +225,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     CAmount availableTotalBalance = mnpAvailableBalance + matureZerocoinBalance;
     CAmount sumTotalBalance = nTotalBalance + zerocoinBalance;
 
-    // MTNS labels
+    // ICU labels
     ui->labelBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, mnpAvailableBalance, false, BitcoinUnits::separatorAlways));
     ui->labelUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelImmature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, immatureBalance, false, BitcoinUnits::separatorAlways));
@@ -239,7 +239,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelWatchLocked->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nWatchOnlyLockedBalance, false, BitcoinUnits::separatorAlways));
     ui->labelWatchTotal->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, nTotalWatchBalance, false, BitcoinUnits::separatorAlways));
 
-    // zMTNS labels
+    // zICU labels
 //    ui->labelzBalance->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, zerocoinBalance, false, BitcoinUnits::separatorAlways));
 //    ui->labelzBalanceUnconfirmed->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, unconfirmedZerocoinBalance, false, BitcoinUnits::separatorAlways));
 //    ui->labelzBalanceMature->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, matureZerocoinBalance, false, BitcoinUnits::separatorAlways));
@@ -250,11 +250,11 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelTotalz->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, sumTotalBalance, false, BitcoinUnits::separatorAlways));
 
     // Percentage labels
-    ui->labelMTNSPercent->setText(sPercentage);
-//    ui->labelzMTNSPercent->setText(szPercentage);
+    ui->labelICUPercent->setText(sPercentage);
+//    ui->labelzICUPercent->setText(szPercentage);
 
     // Adjust bubble-help according to AutoMint settings
-//    QString automintHelp = tr("Current percentage of zMTNS.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
+//    QString automintHelp = tr("Current percentage of zICU.\nIf AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).\n");
 //    bool fEnableZeromint = GetBoolArg("-enablezeromint", true);
 //    int nZeromintPercentage = GetArg("-zeromintpercentage", 10);
 //    if (fEnableZeromint) {
@@ -271,39 +271,39 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     bool showSumAvailable = settingShowAllBalances || sumTotalBalance != availableTotalBalance;
     ui->labelBalanceTextz->setVisible(showSumAvailable);
     ui->labelBalancez->setVisible(showSumAvailable);
-    bool showMTNSAvailable = settingShowAllBalances || mnpAvailableBalance != nTotalBalance;
-    bool showWatchOnlyMTNSAvailable = watchOnlyBalance != nTotalWatchBalance;
-    bool showMTNSPending = settingShowAllBalances || unconfirmedBalance != 0;
-    bool showWatchOnlyMTNSPending = watchUnconfBalance != 0;
-    bool showMTNSLocked = settingShowAllBalances || nLockedBalance != 0;
-    bool showWatchOnlyMTNSLocked = nWatchOnlyLockedBalance != 0;
+    bool showICUAvailable = settingShowAllBalances || mnpAvailableBalance != nTotalBalance;
+    bool showWatchOnlyICUAvailable = watchOnlyBalance != nTotalWatchBalance;
+    bool showICUPending = settingShowAllBalances || unconfirmedBalance != 0;
+    bool showWatchOnlyICUPending = watchUnconfBalance != 0;
+    bool showICULocked = settingShowAllBalances || nLockedBalance != 0;
+    bool showWatchOnlyICULocked = nWatchOnlyLockedBalance != 0;
     bool showImmature = settingShowAllBalances || immatureBalance != 0;
     bool showWatchOnlyImmature = watchImmatureBalance != 0;
     bool showWatchOnly = nTotalWatchBalance != 0;
-    ui->labelBalance->setVisible(showMTNSAvailable || showWatchOnlyMTNSAvailable);
-    ui->labelBalanceText->setVisible(showMTNSAvailable || showWatchOnlyMTNSAvailable);
-    ui->labelWatchAvailable->setVisible(showMTNSAvailable && showWatchOnly);
-    ui->labelUnconfirmed->setVisible(showMTNSPending || showWatchOnlyMTNSPending);
-    ui->labelPendingText->setVisible(showMTNSPending || showWatchOnlyMTNSPending);
-    ui->labelWatchPending->setVisible(showMTNSPending && showWatchOnly);
-    ui->labelLockedBalance->setVisible(showMTNSLocked || showWatchOnlyMTNSLocked);
-    ui->labelLockedBalanceText->setVisible(showMTNSLocked || showWatchOnlyMTNSLocked);
-    ui->labelWatchLocked->setVisible(showMTNSLocked && showWatchOnly);
+    ui->labelBalance->setVisible(showICUAvailable || showWatchOnlyICUAvailable);
+    ui->labelBalanceText->setVisible(showICUAvailable || showWatchOnlyICUAvailable);
+    ui->labelWatchAvailable->setVisible(showICUAvailable && showWatchOnly);
+    ui->labelUnconfirmed->setVisible(showICUPending || showWatchOnlyICUPending);
+    ui->labelPendingText->setVisible(showICUPending || showWatchOnlyICUPending);
+    ui->labelWatchPending->setVisible(showICUPending && showWatchOnly);
+    ui->labelLockedBalance->setVisible(showICULocked || showWatchOnlyICULocked);
+    ui->labelLockedBalanceText->setVisible(showICULocked || showWatchOnlyICULocked);
+    ui->labelWatchLocked->setVisible(showICULocked && showWatchOnly);
     ui->labelImmature->setVisible(showImmature || showWatchOnlyImmature); // for symmetry reasons also show immature label when the watch-only one is shown
     ui->labelImmatureText->setVisible(showImmature || showWatchOnlyImmature);
     ui->labelWatchImmature->setVisible(showImmature && showWatchOnly); // show watch-only immature balance
-//    bool showzMTNSAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
-//    bool showzMTNSUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
-//    bool showzMTNSImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
-//    ui->labelzBalanceMature->setVisible(showzMTNSAvailable);
-//    ui->labelzBalanceMatureText->setVisible(showzMTNSAvailable);
-//    ui->labelzBalanceUnconfirmed->setVisible(showzMTNSUnconfirmed);
-//    ui->labelzBalanceUnconfirmedText->setVisible(showzMTNSUnconfirmed);
-//    ui->labelzBalanceImmature->setVisible(showzMTNSImmature);
-//    ui->labelzBalanceImmatureText->setVisible(showzMTNSImmature);
+//    bool showzICUAvailable = settingShowAllBalances || zerocoinBalance != matureZerocoinBalance;
+//    bool showzICUUnconfirmed = settingShowAllBalances || unconfirmedZerocoinBalance != 0;
+//    bool showzICUImmature = settingShowAllBalances || immatureZerocoinBalance != 0;
+//    ui->labelzBalanceMature->setVisible(showzICUAvailable);
+//    ui->labelzBalanceMatureText->setVisible(showzICUAvailable);
+//    ui->labelzBalanceUnconfirmed->setVisible(showzICUUnconfirmed);
+//    ui->labelzBalanceUnconfirmedText->setVisible(showzICUUnconfirmed);
+//    ui->labelzBalanceImmature->setVisible(showzICUImmature);
+//    ui->labelzBalanceImmatureText->setVisible(showzICUImmature);
     bool showPercentages = ! (zerocoinBalance == 0 && nTotalBalance == 0);
-    ui->labelMTNSPercent->setVisible(showPercentages);
-//    ui->labelzMTNSPercent->setVisible(showPercentages);
+    ui->labelICUPercent->setVisible(showPercentages);
+//    ui->labelzICUPercent->setVisible(showPercentages);
 
     static int cachedTxLocks = 0;
 
@@ -374,7 +374,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("MTNS")
+    // update the display unit, to not use the default ("ICU")
     updateDisplayUnit();
 }
 

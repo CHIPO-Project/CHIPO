@@ -172,7 +172,7 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MTNSs from being stolen by malware infecting your computer.</source>
+        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ICUs from being stolen by malware infecting your computer.</source>
         <translation>CHIPO сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши CHIPO от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
@@ -180,8 +180,8 @@
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MTNS&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ MTNS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ICU&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ ICU&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1504,32 +1504,32 @@ Please check the address and try again.</source>
         <translation>Выберите уровень конфиденциальности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 25000 MTNS</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 25000 MTNS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 25000 ICU</source>
+        <translation>Используйте 2 разные мастерноды для смешивания средств до 25000 ICU</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 25000 MTNS</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 25000 MTNS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 25000 ICU</source>
+        <translation>Используйте 8 разных мастернод для смешивания средств до 25000 ICU</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Используйте 16 разных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MTNS to anonymize 25000 MTNS</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 MTNS для анонимизации 25000 MTNS</translation>
+        <source>This option is the quickest and will cost about ~0.025 ICU to anonymize 25000 ICU</source>
+        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 ICU для анонимизации 25000 ICU</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MTNS to anonymize 25000 MTNS</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 MTNS для анонимизации 25000 MTNS</translation>
+        <source>This option is moderately fast and will cost about 0.05 ICU to anonymize 25000 ICU</source>
+        <translation>Это средний по скорости вариант и он будет стоить около 0.05 ICU для анонимизации 25000 ICU</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
     </message>
     <message>
-        <source>0.1 MTNS per 25000 MTNS you anonymize.</source>
-        <translation>0.1 MTNS за 25000 MTNS которые вы собираетесь анонимизировать.</translation>
+        <source>0.1 ICU per 25000 ICU you anonymize.</source>
+        <translation>0.1 ICU за 25000 ICU которые вы собираетесь анонимизировать.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -2570,8 +2570,8 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 MTNS</source>
-        <translation>0 MTNS</translation>
+        <source>0 ICU</source>
+        <translation>0 ICU</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>

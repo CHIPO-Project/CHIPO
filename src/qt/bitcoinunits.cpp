@@ -21,18 +21,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(MTNS);
-    unitlist.append(mMTNS);
-    unitlist.append(uMTNS);
+    unitlist.append(ICU);
+    unitlist.append(mICU);
+    unitlist.append(uICU);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case MTNS:
-    case mMTNS:
-    case uMTNS:
+    case ICU:
+    case mICU:
+    case uICU:
         return true;
     default:
         return false;
@@ -42,11 +42,11 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case MTNS:
+    case ICU:
         return QString("chipo");
-    case mMTNS:
+    case mICU:
         return QString("mchipo");
-    case uMTNS:
+    case uICU:
         return QString::fromUtf8("uchipo");
     default:
         return QString("???");
@@ -57,23 +57,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case MTNS:
-            return QString("MTNS");
-        case mMTNS:
-            return QString("mMTNS");
-        case uMTNS:
-            return QString::fromUtf8("μMTNS");
+        case ICU:
+            return QString("ICU");
+        case mICU:
+            return QString("mICU");
+        case uICU:
+            return QString::fromUtf8("μICU");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case MTNS:
-            return QString("tMTNS");
-        case mMTNS:
-            return QString("mtMTNS");
-        case uMTNS:
-            return QString::fromUtf8("μtMTNS");
+        case ICU:
+            return QString("tICU");
+        case mICU:
+            return QString("mtICU");
+        case uICU:
+            return QString::fromUtf8("μtICU");
         default:
             return QString("???");
         }
@@ -84,23 +84,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case MTNS:
-            return QString("MTNS");
-        case mMTNS:
-            return QString("Milli-MTNS (1 / 1" THIN_SP_UTF8 "000)");
-        case uMTNS:
-            return QString("Micro-MTNS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case ICU:
+            return QString("ICU");
+        case mICU:
+            return QString("Milli-ICU (1 / 1" THIN_SP_UTF8 "000)");
+        case uICU:
+            return QString("Micro-ICU (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case MTNS:
-            return QString("TestMTNSs");
-        case mMTNS:
-            return QString("Milli-TestMTNS (1 / 1" THIN_SP_UTF8 "000)");
-        case uMTNS:
-            return QString("Micro-TestMTNS (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case ICU:
+            return QString("TestICUs");
+        case mICU:
+            return QString("Milli-TestICU (1 / 1" THIN_SP_UTF8 "000)");
+        case uICU:
+            return QString("Micro-TestICU (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -110,11 +110,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case MTNS:
+    case ICU:
         return 100000000;
-    case mMTNS:
+    case mICU:
         return 100000;
-    case uMTNS:
+    case uICU:
         return 100;
     default:
         return 100000000;
@@ -124,11 +124,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case MTNS:
+    case ICU:
         return 8;
-    case mMTNS:
+    case mICU:
         return 5;
-    case uMTNS:
+    case uICU:
         return 2;
     default:
         return 0;

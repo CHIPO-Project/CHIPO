@@ -19,9 +19,9 @@ BITCOIN_TX_NAME=chipo-tx
 
 AC_CANONICAL_HOST
 
-AH_TOP([#ifndef MTNS_CONFIG_H])
-AH_TOP([#define MTNS_CONFIG_H])
-AH_BOTTOM([#endif //MTNS_CONFIG_H])
+AH_TOP([#ifndef ICU_CONFIG_H])
+AH_TOP([#define ICU_CONFIG_H])
+AH_BOTTOM([#endif //ICU_CONFIG_H])
 
 dnl faketime breaks configure and is only needed for make. Disable it here.
 unset FAKETIME

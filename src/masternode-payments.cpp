@@ -546,11 +546,11 @@ bool CMasternodeBlockPayees::IsTransactionValid(const CTransaction& txNew)
 
     //require at least 6 signatures
     BOOST_FOREACH (CMasternodePayee& payee, vecPayments)
-        if (payee.nVotes >= nMaxSignatures && payee.nVotes >= MTNSPAYMENTS_SIGNATURES_REQUIRED)
+        if (payee.nVotes >= nMaxSignatures && payee.nVotes >= ICUPAYMENTS_SIGNATURES_REQUIRED)
             nMaxSignatures = payee.nVotes;
 
     // if we don't have at least 6 signatures on a payee, approve whichever is the longest chain
-    if (nMaxSignatures < MTNSPAYMENTS_SIGNATURES_REQUIRED) return true;
+    if (nMaxSignatures < ICUPAYMENTS_SIGNATURES_REQUIRED) return true;
 
     BOOST_FOREACH (CMasternodePayee& payee, vecPayments) {
         bool found = false;
@@ -563,7 +563,7 @@ bool CMasternodeBlockPayees::IsTransactionValid(const CTransaction& txNew)
             }
         }
 
-        if (payee.nVotes >= MTNSPAYMENTS_SIGNATURES_REQUIRED) {
+        if (payee.nVotes >= ICUPAYMENTS_SIGNATURES_REQUIRED) {
             if (found) return true;
 
             CTxDestination address1;
@@ -673,11 +673,11 @@ bool CMasternodePaymentWinner::IsValid(CNode* pnode, std::string& strError)
 
     int n = mnodeman.GetMasternodeRank(vinMasternode, nBlockHeight - 100, ActiveProtocol());
 
-    if (n > MTNSPAYMENTS_SIGNATURES_TOTAL) {
+    if (n > ICUPAYMENTS_SIGNATURES_TOTAL) {
         //It's common to have masternodes mistakenly think they are in the top 10
         // We don't want to print all of these messages, or punish them unless they're way off
-        if (n > MTNSPAYMENTS_SIGNATURES_TOTAL * 2) {
-            strError = strprintf("Masternode not in the top %d (%d)", MTNSPAYMENTS_SIGNATURES_TOTAL * 2, n);
+        if (n > ICUPAYMENTS_SIGNATURES_TOTAL * 2) {
+            strError = strprintf("Masternode not in the top %d (%d)", ICUPAYMENTS_SIGNATURES_TOTAL * 2, n);
             LogPrint("masternode","CMasternodePaymentWinner::IsValid - %s\n", strError);
             //if (masternodeSync.IsSynced()) Misbehaving(pnode->GetId(), 20);
         }
@@ -700,8 +700,8 @@ bool CMasternodePayments::ProcessBlock(int nBlockHeight)
         return false;
     }
 
-    if (n > MTNSPAYMENTS_SIGNATURES_TOTAL) {
-        LogPrint("mnpayments", "CMasternodePayments::ProcessBlock - Masternode not in the top %d (%d)\n", MTNSPAYMENTS_SIGNATURES_TOTAL, n);
+    if (n > ICUPAYMENTS_SIGNATURES_TOTAL) {
+        LogPrint("mnpayments", "CMasternodePayments::ProcessBlock - Masternode not in the top %d (%d)\n", ICUPAYMENTS_SIGNATURES_TOTAL, n);
         return false;
     }
 

@@ -3005,7 +3005,7 @@ void ThreadScriptCheck()
     scriptcheckqueue.Thread();
 }
 
-void RecalculateZMTNSMinted()
+void RecalculateZICUMinted()
 {
     CBlockIndex *pindex = chainActive[Params().Zerocoin_StartHeight()];
     int nHeightEnd = chainActive.Height();
@@ -3032,14 +3032,14 @@ void RecalculateZMTNSMinted()
     }
 }
 
-void RecalculateZMTNSSpent()
+void RecalculateZICUSpent()
 {
     CBlockIndex* pindex = chainActive[Params().Zerocoin_StartHeight()];
     while (true) {
         if (pindex->nHeight % 1000 == 0)
             LogPrintf("%s : block %d...\n", __func__, pindex->nHeight);
 
-        //Rewrite zMTNS supply
+        //Rewrite zICU supply
         CBlock block;
         assert(ReadBlockFromDisk(block, pindex));
 
@@ -3048,13 +3048,13 @@ void RecalculateZMTNSSpent()
         //Reset the supply to previous block
         pindex->mapZerocoinSupply = pindex->pprev->mapZerocoinSupply;
 
-        //Add mints to zMTNS supply
+        //Add mints to zICU supply
         for (auto denom : libzerocoin::zerocoinDenomList) {
             long nDenomAdded = count(pindex->vMintDenominationsInBlock.begin(), pindex->vMintDenominationsInBlock.end(), denom);
             pindex->mapZerocoinSupply.at(denom) += nDenomAdded;
         }
 
-        //Remove spends from zMTNS supply
+        //Remove spends from zICU supply
         for (auto denom : listDenomsSpent)
             pindex->mapZerocoinSupply.at(denom)--;
 
@@ -3068,7 +3068,7 @@ void RecalculateZMTNSSpent()
     }
 }
 
-bool RecalculateMTNSSupply(int nHeightStart)
+bool RecalculateICUSupply(int nHeightStart)
 {
     if (nHeightStart > chainActive.Height())
         return false;
@@ -3388,9 +3388,9 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     std::list<libzerocoin::CoinDenomination> listSpends = ZerocoinSpendListFromBlock(block, fFilterInvalid);
 
     if (pindex->nHeight == Params().Zerocoin_Block_RecalculateAccumulators() + 1) {
-        RecalculateZMTNSMinted();
-        RecalculateZMTNSSpent();
-        RecalculateMTNSSupply(Params().Zerocoin_StartHeight());
+        RecalculateZICUMinted();
+        RecalculateZICUSpent();
+        RecalculateICUSupply(Params().Zerocoin_StartHeight());
     }
 
     // Initialize zerocoin supply to the supply from previous block
@@ -3620,7 +3620,7 @@ void static UpdateTip(CBlockIndex* pindexNew)
 {
     chainActive.SetTip(pindexNew);
 
-    // If turned on AutoZeromint will automatically convert MTNS to zMTNS
+    // If turned on AutoZeromint will automatically convert ICU to zICU
     if (pwalletMain->isZeromintEnabled ())
         pwalletMain->AutoZeromint ();
 

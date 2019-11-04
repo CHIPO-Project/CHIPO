@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MTNSs from being stolen by malware infecting your computer.</source>
-        <translation>CHIPO verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi MTNS dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ICUs from being stolen by malware infecting your computer.</source>
+        <translation>CHIPO verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi ICU dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MTNS&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI MTNS&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ICU&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI ICU&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>

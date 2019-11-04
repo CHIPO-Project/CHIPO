@@ -82,29 +82,29 @@ enum AvailableCoinsType {
     ALL_COINS = 1,
     ONLY_DENOMINATED = 2,
     ONLY_NOT10000IFMN = 3,
-    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 MTNS at the same time
+    ONLY_NONDENOMINATED_NOT10000IFMN = 4, // ONLY_NONDENOMINATED and not 10000 ICU at the same time
     ONLY_10000 = 5,                        // find masternode outputs including locked ones (use with caution)
     STAKABLE_COINS = 6                          // UTXO's that are valid for staking
 };
 
-// Possible states for zMTNS send
+// Possible states for zICU send
 enum ZerocoinSpendStatus {
-    ZMTNS_SPEND_OKAY = 0,                            // No error
-    ZMTNS_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZMTNS_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZMTNS_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZMTNS_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZMTNS_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZMTNS_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZMTNS_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZMTNS_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZMTNS_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
-    ZMTNS_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZMTNS_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZMTNS_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZMTNS_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZMTNS_SPENT_USED_ZMTNS = 14,                      // Coin has already been spend
-    ZMTNS_TX_TOO_LARGE = 15                          // The transaction is larger than the max tx size
+    ZICU_SPEND_OKAY = 0,                            // No error
+    ZICU_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZICU_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZICU_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZICU_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZICU_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZICU_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZICU_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZICU_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZICU_TXMINT_GENERAL = 9,                        // General errors in MintToTxIn
+    ZICU_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZICU_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZICU_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZICU_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZICU_SPENT_USED_ZICU = 14,                      // Coin has already been spend
+    ZICU_TX_TOO_LARGE = 15                          // The transaction is larger than the max tx size
 };
 
 struct CompactTallyItem {
@@ -645,8 +645,8 @@ public:
     /** MultiSig address added */
     boost::signals2::signal<void(bool fHaveMultiSig)> NotifyMultiSigChanged;
 
-    /** zMTNS reset */
-    boost::signals2::signal<void()> NotifyzMTNSReset;
+    /** zICU reset */
+    boost::signals2::signal<void()> NotifyzICUReset;
 };
 
 

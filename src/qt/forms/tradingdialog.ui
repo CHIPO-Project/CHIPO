@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="MTNSsupply">
+    <widget class="QLabel" name="ICUsupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="MTNSDemand">
+    <widget class="QLabel" name="ICUDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyMTNS">
+    <widget class="QPushButton" name="BuyICU">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,7 +442,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy MTNS</string>
+      <string>Buy ICU</string>
      </property>
      <property name="icon">
       <iconset resource="../chipo.qrc">
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>MTNS</string>
+      <string>ICU</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>MTNS</string>
+      <string>ICU</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputMTNS">
+    <widget class="QLineEdit" name="UnitsInputICU">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellMTNSBTN">
+    <widget class="QPushButton" name="SellICUBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,7 +1751,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell MTNS</string>
+      <string>Sell ICU</string>
      </property>
      <property name="icon">
       <iconset resource="../chipo">
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>MTNS Available:</string>
+         <string>ICU Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="MTNSAvailableLabel">
+       <widget class="QLabel" name="ICUAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelMTNS">
+       <widget class="QLabel" name="labelICU">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>MTNS</string>
+         <string>ICU</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="MTNSBalanceLabel">
+    <widget class="QLabel" name="ICUBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>MTNS Balance:</string>
+      <string>ICU Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="MTNSAvailableLabel_2">
+    <widget class="QLabel" name="ICUAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>MTNS Available:</string>
+      <string>ICU Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>MTNS Pending:</string>
+      <string>ICU Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="MTNSPendingLabel">
+    <widget class="QLabel" name="ICUPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex MTNS Deposit Address:</string>
+      <string>Bittrex ICU Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">

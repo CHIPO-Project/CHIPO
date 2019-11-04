@@ -238,8 +238,8 @@ echo ${COMMIT}
 if [ $setup = true ]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone http://mtns.hashexplorer.net:8025/amusedbnet/gitian.sigs.git
-    git clone http://mtns.hashexplorer.net:8025/amusedbnet/CHIPO-detached-sigs.git
+    git clone http://
+    git clone http://
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [ -n "$USE_LXC" ]

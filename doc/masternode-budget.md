@@ -4,7 +4,7 @@ Masternode Budget API
 Get paid
 ------------------------
 
-When Phase `from 4 to 9` is reached you'll receive a payment for `90% – 0,1%(50MTNS - 0.1 MTNS)` Omotenashi Coins.
+When Phase `from 4 to 9` is reached you'll receive a payment for `90% – 0,1%(50ICU - 0.1 ICU)` Omotenashi Coins.
 
 
 RPC Commands

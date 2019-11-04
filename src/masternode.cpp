@@ -604,7 +604,7 @@ bool CMasternodeBroadcast::CheckInputsAndAdd(int& nDoS)
     }
 
     // verify that sig time is legit in past
-    // should be at least not earlier than block when 1000 MTNS tx got MASTERNODE_MIN_CONFIRMATIONS
+    // should be at least not earlier than block when 1000 ICU tx got MASTERNODE_MIN_CONFIRMATIONS
     uint256 hashBlock = 0;
     CTransaction tx2;
     GetTransaction(vin.prevout.hash, tx2, hashBlock, true);
@@ -727,8 +727,8 @@ bool CMasternodePing::CheckAndUpdate(int& nDos, bool fRequireEnabled)
 
         // LogPrint("masternode","mnping - Found corresponding mn for vin: %s\n", vin.ToString());
         // update only if there is no known ping for this masternode or
-        // last ping was more then MASTERNODE_MIN_MTNS_SECONDS-60 ago comparing to this one
-        if (!pmn->IsPingedWithin(MASTERNODE_MIN_MTNS_SECONDS - 60, sigTime)) {
+        // last ping was more then MASTERNODE_MIN_ICU_SECONDS-60 ago comparing to this one
+        if (!pmn->IsPingedWithin(MASTERNODE_MIN_ICU_SECONDS - 60, sigTime)) {
             std::string strMessage = vin.ToString() + blockHash.ToString() + boost::lexical_cast<std::string>(sigTime);
 
             std::string errorMessage = "";

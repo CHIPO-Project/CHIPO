@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MTNSs from being stolen by malware infecting your computer.</source>
+        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ICUs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MTNS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ICU&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -546,7 +546,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zMTNS</source>
+        <source>Privacy Actions for zICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2078,7 +2078,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Add destinations to send MTNS to</source>
+        <source>Add destinations to send ICU to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2210,12 +2210,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 25000 MTNS</source>
+        <source>Use 2 separate masternodes to mix funds up to 25000 ICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 25000 MTNS</source>
+        <source>Use 8 separate masternodes to mix funds up to 25000 ICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2225,12 +2225,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 MTNS to anonymize 25000 MTNS</source>
+        <source>This option is the quickest and will cost about ~0.025 ICU to anonymize 25000 ICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 MTNS to anonymize 25000 MTNS</source>
+        <source>This option is moderately fast and will cost about 0.05 ICU to anonymize 25000 ICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2240,7 +2240,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 MTNS per 25000 MTNS you anonymize.</source>
+        <source>0.1 ICU per 25000 ICU you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2419,23 +2419,23 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</source>
     </message>
     <message>
         <location line="-133"/>
-        <source>Percentage of incoming MTNS which get automatically converted to zMTNS via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming ICU which get automatically converted to zICU via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zMTNS</source>
+        <source>Percentage of autominted zICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough MTNS for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough ICU for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zMTNS Denomination</source>
+        <source>Preferred Automint zICU Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2605,7 +2605,7 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</source>
     </message>
     <message>
         <location line="+43"/>
-        <source>MTNS Balances</source>
+        <source>ICU Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2706,17 +2706,17 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</source>
     </message>
     <message>
         <location line="+36"/>
-        <source>MTNS:</source>
+        <source>ICU:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+35"/>
-        <source>zMTNS:</source>
+        <source>zICU:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Current percentage of zMTNS.
+        <source>Current percentage of zICU.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2729,7 +2729,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="-46"/>
         <location line="+13"/>
-        <source>Locked MTNS or Masternode collaterals. These are excluded from zMTNS minting.</source>
+        <source>Locked ICU or Masternode collaterals. These are excluded from zICU minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2738,7 +2738,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000 000 00 MTNS</source>
+        <source>0.000 000 00 ICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2749,7 +2749,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     <message>
         <location line="+7"/>
         <location line="+10"/>
-        <source>Unlocked MTNSs. These can be used for zMTNS minting.</source>
+        <source>Unlocked ICUs. These can be used for zICU minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2766,7 +2766,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
         <location line="+14"/>
         <location line="+104"/>
         <source>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zMTNS are spendable.</source>
+These zICU are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2777,7 +2777,7 @@ These zMTNS are spendable.</source>
     <message>
         <location line="+23"/>
         <location line="+35"/>
-        <source>All available zMTNS, unconfirmed and immature zMTNS included.</source>
+        <source>All available zICU, unconfirmed and immature zICU included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2807,7 +2807,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
     </message>
     <message>
         <location line="+93"/>
-        <source>Current percentage of zMTNS.
+        <source>Current percentage of zICU.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -2973,12 +2973,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <name>PrivacyDialog</name>
     <message>
         <location filename="../forms/privacydialog.ui" line="+55"/>
-        <source>MTNS which were anonymized via Zerocin Protocol</source>
+        <source>ICU which were anonymized via Zerocin Protocol</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Zerocoin MTNS (zMTNS)</source>
+        <source>Zerocoin ICU (zICU)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3014,7 +3014,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="-349"/>
         <location line="+629"/>
-        <source>zMTNS</source>
+        <source>zICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3029,7 +3029,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+13"/>
-        <source>0.000 000 00 MTNS</source>
+        <source>0.000 000 00 ICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3104,7 +3104,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zMTNS for spending</source>
+        <source>Available (mature and spendable) zICU for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3114,15 +3114,15 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zMTNS for spending
+        <source>Available (mature and spendable) zICU for spending
 
-zMTNS are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+zICU are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+417"/>
-        <source>0 zMTNS</source>
+        <source>0 zICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3213,7 +3213,7 @@ zMTNS are mature when they have more than 20 confirmations AND more than 2 mints
     <message>
         <location line="+62"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zMTNS</source>
+        <source>Total Balance including unconfirmed and immature zICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3424,13 +3424,13 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
     <message>
         <location line="+45"/>
         <location line="+3"/>
-        <source>zMTNS is currently disabled due to maintenance.</source>
+        <source>zICU is currently disabled due to maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+50"/>
         <location line="+113"/>
-        <source>zMTNS is currently undergoing maintenance.</source>
+        <source>zICU is currently undergoing maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3455,7 +3455,7 @@ Immature: confirmed, but less than 2 mints of the same denomination after it was
     </message>
     <message>
         <location line="+0"/>
-        <source> zMTNS in </source>
+        <source> zICU in </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4451,7 +4451,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+7"/>
-        <source>0 MTNS</source>
+        <source>0 ICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4521,12 +4521,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uMTNSs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uMTNSs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uMTNSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uICUs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uICUs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uICUs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uMTNSs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uMTNSs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uMTNSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uICUs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uICUs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uICUs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4592,7 +4592,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized MTNS</source>
+        <source>Anonymized ICU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5874,7 +5874,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 MTNS.</source>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 ICU.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6064,12 +6064,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in MTNS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in ICU/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in MTNS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in ICU/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6219,12 +6219,12 @@ for example: alertnotify=echo %%s | mail -s &quot;CHIPO Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 25000 MTNS.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 25000 ICU.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 25000 MTNS.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 25000 ICU.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6634,7 +6634,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CHIPO Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in MTNS/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in ICU/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -133,13 +133,13 @@
        <!--<item>-->
         <!--<widget class="QCheckBox" name="checkBoxZeromintEnable">-->
          <!--<property name="toolTip">-->
-          <!--<string>Enable automatic minting of MTNS units to zMTNS</string>-->
+          <!--<string>Enable automatic minting of ICU units to zICU</string>-->
          <!--</property>-->
          <!--<property name="layoutDirection">-->
           <!--<enum>Qt::LeftToRight</enum>-->
          <!--</property>-->
          <!--<property name="text">-->
-          <!--<string>Enable zMTNS Automint</string>-->
+          <!--<string>Enable zICU Automint</string>-->
          <!--</property>-->
         <!--</widget>-->
        <!--</item>-->
@@ -148,10 +148,10 @@
          <!--<item>-->
           <!--<widget class="QLabel" name="percentage_label">-->
            <!--<property name="toolTip">-->
-            <!--<string>Percentage of incoming MTNS which get automatically converted to zMTNS via Zerocoin Protocol (min: 10%)</string>-->
+            <!--<string>Percentage of incoming ICU which get automatically converted to zICU via Zerocoin Protocol (min: 10%)</string>-->
            <!--</property>-->
            <!--<property name="text">-->
-            <!--<string>Percentage of autominted zMTNS</string>-->
+            <!--<string>Percentage of autominted zICU</string>-->
            <!--</property>-->
           <!--</widget>-->
          <!--</item>-->
@@ -181,10 +181,10 @@
             <!--</size>-->
            <!--</property>-->
            <!--<property name="toolTip">-->
-            <!--<string>Wait with automatic conversion to Zerocoin until enough MTNS for this denomination is available</string>-->
+            <!--<string>Wait with automatic conversion to Zerocoin until enough ICU for this denomination is available</string>-->
            <!--</property>-->
            <!--<property name="text">-->
-            <!--<string>Preferred Automint zMTNS Denomination</string>-->
+            <!--<string>Preferred Automint zICU Denomination</string>-->
            <!--</property>-->
           <!--</widget>-->
          <!--</item>-->
@@ -197,7 +197,7 @@
             <!--</size>-->
            <!--</property>-->
            <!--<property name="toolTip">-->
-            <!--<string>Wait with automatic conversion to Zerocoin until enough MTNS for this denomination is available</string>-->
+            <!--<string>Wait with automatic conversion to Zerocoin until enough ICU for this denomination is available</string>-->
            <!--</property>-->
            <!--<property name="maxVisibleItems">-->
             <!--<number>9</number>-->

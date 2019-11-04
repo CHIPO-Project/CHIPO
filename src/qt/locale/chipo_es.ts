@@ -176,16 +176,16 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MTNSs from being stolen by malware infecting your computer.</source>
-        <translation>CHIPO se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus MTNSs no sean robados mediante malware de su ordenador.</translation>
+        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ICUs from being stolen by malware infecting your computer.</source>
+        <translation>CHIPO se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus ICUs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>¿Está seguro de que desea cifrar su monedero?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MTNS&lt;/b&gt;!</source>
-        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS MTNS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ICU&lt;/b&gt;!</source>
+        <translation>Atención: Si cifra su monedero y pierde su contraseña, perderá &lt;b&gt; TODOS SUS ICU&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -618,8 +618,8 @@
         <translation>&amp;Privacidad</translation>
     </message>
     <message>
-        <source>Privacy Action for zMTNS and Obfuscation</source>
-        <translation>Privacidad con zMTNS y Ofuscación</translation>
+        <source>Privacy Action for zICU and Obfuscation</source>
+        <translation>Privacidad con zICU y Ofuscación</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -1528,32 +1528,32 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor selecciones un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 25000 MTNS</source>
-        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 25000 MTNS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 25000 ICU</source>
+        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 25000 ICU</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 25000 MTNS</source>
-        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 25000 MTNS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 25000 ICU</source>
+        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 25000 ICU</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MTNS to anonymize 25000 MTNS</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 MTNS para anonimizar 25000 MTNS</translation>
+        <source>This option is the quickest and will cost about ~0.025 ICU to anonymize 25000 ICU</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 ICU para anonimizar 25000 ICU</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MTNS to anonymize 25000 MTNS</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 MTNS para anonimizar 25000 MTNS.</translation>
+        <source>This option is moderately fast and will cost about 0.05 ICU to anonymize 25000 ICU</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 ICU para anonimizar 25000 ICU.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 MTNS per 25000 MTNS you anonymize.</source>
-        <translation>0.1 MTNS por 25000 MTNS que anonimizas.</translation>
+        <source>0.1 ICU per 25000 ICU you anonymize.</source>
+        <translation>0.1 ICU por 25000 ICU que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1635,11 +1635,11 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Aceptar conezMTNSes del exterior</translation>
+        <translation>Aceptar conezICUes del exterior</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Permitir conezMTNSes entrantes</translation>
+        <translation>Permitir conezICUes entrantes</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1696,16 +1696,16 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>Mapear un puerto utilizando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming MTNS which get automatically converted to zMTNS via Zerocoin Protocol (min: 10%)</source>
-        <translation>Porcentaje de MTNSs entrantes que serán automáticamente convertidos a zMTNS a través del Protocolo Zerocoin (mín: 10%)</translation>
+        <source>Percentage of incoming ICU which get automatically converted to zICU via Zerocoin Protocol (min: 10%)</source>
+        <translation>Porcentaje de ICUs entrantes que serán automáticamente convertidos a zICU a través del Protocolo Zerocoin (mín: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zMTNS</source>
-        <translation>Porcentaje de zMTNS autogenerados</translation>
+        <source>Percentage of autominted zICU</source>
+        <translation>Porcentaje de zICU autogenerados</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough MTNS for this denomination is available</source>
-        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes MTNS disponibles para esta denominación</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough ICU for this denomination is available</source>
+        <translation>Retrasar la conversión automática a Zerocoin hasta que hayan suficientes ICU disponibles para esta denominación</translation>
     </message>
     <message>
         <source>Connect to the CHIPO network through a SOCKS5 proxy.</source>
@@ -1839,8 +1839,8 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>MTNS Balances</source>
-        <translation>Balances MTNS</translation>
+        <source>ICU Balances</source>
+        <translation>Balances ICU</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -2226,7 +2226,7 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Número de conezMTNSes</translation>
+        <translation>Número de conezICUes</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -2741,8 +2741,8 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 MTNS</source>
-        <translation>0 MTNS</translation>
+        <source>0 ICU</source>
+        <translation>0 ICU</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2785,12 +2785,12 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>Tiempo de confirmación:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uMTNSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMTNSs in fee,&lt;br /&gt;while "at least" pays 1000 uMTNSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uMTNSs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uMTNSs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uMTNSs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uICUs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uICUs in fee,&lt;br /&gt;while "at least" pays 1000 uICUs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uICUs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uICUs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uICUs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uMTNSs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uMTNSs in fee,&lt;br /&gt;while "total at least" pays 1000 uMTNSs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Si la comisión personalizada se fija en 1000 uMTNSs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uMTNSs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uMTNSs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uICUs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uICUs in fee,&lt;br /&gt;while "total at least" pays 1000 uICUs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Si la comisión personalizada se fija en 1000 uICUs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uICUs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uICUs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for CHIPO transactions than the network can process.</source>
@@ -3761,8 +3761,8 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>Enviar Monedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 MTNS.</source>
-        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 MTNS.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 ICU.</source>
+        <translation>SwiftTX no soporta el envío de importes tan altos todavía. Las transacciones están actualmente limitadas a %1 ICU.</translation>
     </message>
 </context>
 <context>
@@ -3819,7 +3819,7 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Permitir conezMTNSes JSON-RPC  desde la fuente especificada. Valido para &lt;ip&gt; sea una única IP (ej: 1.2.3.4), una red/mascara de red (ej: 1.2.3.4/255.255.255.0) o una red/CIDR (ej: 1.2.3.4/24). Esta opción puede ser especificada múltiples veces.</translation>
+        <translation>Permitir conezICUes JSON-RPC  desde la fuente especificada. Valido para &lt;ip&gt; sea una única IP (ej: 1.2.3.4), una red/mascara de red (ej: 1.2.3.4/255.255.255.0) o una red/CIDR (ej: 1.2.3.4/24). Esta opción puede ser especificada múltiples veces.</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
@@ -3835,7 +3835,7 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Escuchar únicamente a la tarjeta de red indicada para conezMTNSes JSON-RPC. Use la notación [host]:puerto para IPv6. Esta opción puede ser especificada varias veces (por defecto: escuchar en todas las tarjetas de red)</translation>
+        <translation>Escuchar únicamente a la tarjeta de red indicada para conezICUes JSON-RPC. Use la notación [host]:puerto para IPv6. Esta opción puede ser especificada varias veces (por defecto: escuchar en todas las tarjetas de red)</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. CHIPO Core is probably already running.</source>
@@ -3879,7 +3879,7 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Error: La escucha para conezMTNSes entrantes falló (la escucha retorno error %s)</translation>
+        <translation>Error: La escucha para conezICUes entrantes falló (la escucha retorno error %s)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3898,12 +3898,12 @@ https://www.transifex.com/amusedbnet/chipo-project-translations</translation>
         <translation>Ejecutar comando cuando el mejor bloque cambie (%s en cmd es reemplazado por el block hash)</translation>
     </message>
     <message>
-        <source>Fees (in MTNS/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Comisiones (en MTNS/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
+        <source>Fees (in ICU/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Comisiones (en ICU/Kb) menores a esta son consideradas gratuitas para la propagación de la transacción (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in MTNS/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Comisiones (en MTNS/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
+        <source>Fees (in ICU/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Comisiones (en ICU/Kb) menores a esta son consideradas gratuitas para la creación de la transacción (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4034,12 +4034,12 @@ por ejemplo: alertnotify=echo %%s | mail -s "CHIPO Alert" admin@foo.com
         <translation>Imposible localizar suficientes fondos denominados de Ofuscación para esta transacción.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 25000 MTNS.</source>
-        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 25000 MTNS.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 25000 ICU.</source>
+        <translation>Imposible localizar suficientes fondos no-denominados de Ofuscación para esta transacción que no es igual a 25000 ICU.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 25000 MTNS.</source>
-        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 25000 MTNS.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 25000 ICU.</source>
+        <translation>Imposible localizar fondos suficientes para esta transacción que no es igual a 25000 ICU.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4107,7 +4107,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "CHIPO Alert" admin@foo.com
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Aceptar conezMTNSes desde afuera (predeterminado: 1 sin opción -proxy o -connect)</translation>
+        <translation>Aceptar conezICUes desde afuera (predeterminado: 1 sin opción -proxy o -connect)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
@@ -4326,8 +4326,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "CHIPO Alert" admin@foo.com
         <translation>Falló al leer el bloque</translation>
     </message>
     <message>
-        <source>Fee (in MTNS/kB) to add to transactions you send (default: %s)</source>
-        <translation>Comisión (en MTNS/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
+        <source>Fee (in ICU/kB) to add to transactions you send (default: %s)</source>
+        <translation>Comisión (en ICU/kB) para agregar a la transacción que envías (predeterminado: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4519,11 +4519,11 @@ por ejemplo: alertnotify=echo %%s | mail -s "CHIPO Alert" admin@foo.com
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Escuchar por conezMTNSes JSON-RPC en &lt;port&gt; (predeterminado: %u o testnet: %u)</translation>
+        <translation>Escuchar por conezICUes JSON-RPC en &lt;port&gt; (predeterminado: %u o testnet: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Escuchar por conezMTNSes en &lt;port&gt; (predeterminado: %u o testnet: %u)</translation>
+        <translation>Escuchar por conezICUes en &lt;port&gt; (predeterminado: %u o testnet: %u)</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -4563,7 +4563,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "CHIPO Alert" admin@foo.com
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Mantener como máximo &lt;n&gt; conezMTNSes a pares (predeterminado: %u)</translation>
+        <translation>Mantener como máximo &lt;n&gt; conezICUes a pares (predeterminado: %u)</translation>
     </message>
     <message>
         <source>Masternode options:</source>
@@ -4663,7 +4663,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "CHIPO Alert" admin@foo.com
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Contraseña para conezMTNSes JSON-RPC</translation>
+        <translation>Contraseña para conezICUes JSON-RPC</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
@@ -4683,7 +4683,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "CHIPO Alert" admin@foo.com
     </message>
     <message>
         <source>RPC support for HTTP persistent connections (default: %d)</source>
-        <translation>Soporte RPC para conezMTNSes persistentes HTTP (predeterminado %d)</translation>
+        <translation>Soporte RPC para conezICUes persistentes HTTP (predeterminado %d)</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
@@ -4955,7 +4955,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "CHIPO Alert" admin@foo.com
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Usar OpenSSL (https) para conezMTNSes JSON-RPC</translation>
+        <translation>Usar OpenSSL (https) para conezICUes JSON-RPC</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -4971,7 +4971,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "CHIPO Alert" admin@foo.com
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Nombre de usuario para conezMTNSes JSON-RPC</translation>
+        <translation>Nombre de usuario para conezICUes JSON-RPC</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>

@@ -172,16 +172,16 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MTNSs from being stolen by malware infecting your computer.</source>
-        <translation>CHIPO sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella MTNSien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>CHIPO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ICUs from being stolen by malware infecting your computer.</source>
+        <translation>CHIPO sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella ICUien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Oletko varma että tahdot salata lompakkosi?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MTNS&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki MTNSisi&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ICU&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja unohdat salausavaimesi, &lt;b&gt;menetät kaikki ICUisi&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1135,11 +1135,11 @@ Please check the address and try again.</source>
         <translation>Valitse yksityisyyden taso.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 25000 MTNS</source>
+        <source>Use 2 separate masternodes to mix funds up to 25000 ICU</source>
         <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 25000 CHIPO</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 25000 MTNS</source>
+        <source>Use 8 separate masternodes to mix funds up to 25000 ICU</source>
         <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 25000 CHIPO</translation>
     </message>
     <message>
@@ -1147,11 +1147,11 @@ Please check the address and try again.</source>
         <translation>Käytä 16 erillistä masternodea</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 MTNS to anonymize 25000 MTNS</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 MTNS anonymoidaksesi 25000 CHIPO</translation>
+        <source>This option is the quickest and will cost about ~0.025 ICU to anonymize 25000 ICU</source>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 ICU anonymoidaksesi 25000 CHIPO</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 MTNS to anonymize 25000 MTNS</source>
+        <source>This option is moderately fast and will cost about 0.05 ICU to anonymize 25000 ICU</source>
         <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 CHIPO anonymoidaksesi 25000 CHIPO</translation>
     </message>
     <message>
@@ -1159,7 +1159,7 @@ Please check the address and try again.</source>
         <translation>Tämä on hitain ja turvallisin vaihtoehto. Täydesti anonymisoiminen ei maksa mitään.</translation>
     </message>
     <message>
-        <source>0.1 MTNS per 25000 MTNS you anonymize.</source>
+        <source>0.1 ICU per 25000 ICU you anonymize.</source>
         <translation>0.1 per 25000 CHIPO, jotka anonymisoit.</translation>
     </message>
     <message>
@@ -1898,8 +1898,8 @@ Please check the address and try again.</source>
         <translation>Muutos:</translation>
     </message>
     <message>
-        <source>0 MTNS</source>
-        <translation>0 MTNS</translation>
+        <source>0 ICU</source>
+        <translation>0 ICU</translation>
     </message>
     <message>
         <source>Choose...</source>

@@ -4,8 +4,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZMTNSCONTROLDIALOG_H
-#define ZMTNSCONTROLDIALOG_H
+#ifndef ZICUCONTROLDIALOG_H
+#define ZICUCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -54,4 +54,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZMTNSCONTROLDIALOG_H
+#endif // ZICUCONTROLDIALOG_H
